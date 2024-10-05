@@ -1,21 +1,36 @@
 # auth_app/views.py
 from rest_framework import generics
-from .serializers import UserSerializer
-from django.contrib.auth import get_user_model
-from rest_framework.authtoken.views import ObtainAuthToken
-from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 
-User = get_user_model()  # Obtenir le modèle d'utilisateur personnalisé
+from .serializers import UserSerializer
+from user.models import Utilisateur
 
-class UserList(generics.ListCreateAPIView):
-    queryset = User.objects.all()
+class UserCreateView(generics.CreateAPIView):
+    queryset = Utilisateur.objects.all()
     serializer_class = UserSerializer
 
-class CustomAuthToken(ObtainAuthToken):
-    def post(self, request, *args, **kwargs):
-        serializer = self.serializer_class(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        user = serializer.validated_data['user']
-        token, created = Token.objects.get_or_create(user=user)
-        return Response({'token': token.key})
+class UserUpdateView(generics.UpdateAPIView):
+    queryset = Utilisateur.objects.all()
+    serializer_class = UserSerializer
+
+class UserDeleteView(generics.DestroyAPIView):
+    queryset = Utilisateur.objects.all()
+    serializer_class = UserSerializer
+
+class UserListView(generics.ListAPIView):
+    queryset = Utilisateur.objects.all()
+    serializer_class = UserSerializer
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True)
+        # Modification des clés pour afficher en français
+        response_data = [
+            {
+                "id": user['id'],
+                "nom_utilisateur": user['username'],
+                "adresse_email": user['email'],
+                "num_telephone": user['numero_de_telephone'],
+            } for user in serializer.data
+        ]
+        return Response(response_data)

@@ -5,19 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8522665-0007-4e48-8262-083d33061d5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eFarm/product/migrations/0002_rename_is_available_product_disponible_and_more.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth_app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth_app/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eFarm" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eFarm/auth_app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/auth_app/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eFarm/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/blog/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eFarm/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eFarm/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eFarm/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eFarm/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eFarm/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/product/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eFarm/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/user/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/eFarm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/eFarm/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/eFarm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eFarm/eFarm/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/product/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eFarm/user/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +67,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/eFarm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -45,7 +80,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Master/PycharmProjects/eFarm"
   }
 }]]></component>

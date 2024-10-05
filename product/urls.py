@@ -9,3 +9,4 @@ urlpatterns = [
     path('', include(router.urls)),
     path('create/', ProductCreateView.as_view(), name='product-create'),
 ]
+
